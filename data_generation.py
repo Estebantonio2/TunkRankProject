@@ -26,9 +26,6 @@ def generate_adjacency_matrix(n, prob=0.5):
     return matrix
 
 def print_matrix(matrix):
-    """
-    Imprime la matriz de adyacencia en formato legible.
-    """
     print("matrix = [")
     for row in matrix:
         print(f"    {row},")
@@ -40,9 +37,6 @@ def generate_random_names(n):
     return selected_names
 
 def print_names(names):
-    """
-    Imprime la lista de nombres en formato legible.
-    """
     print(f"names = {names}")
 
 def main():

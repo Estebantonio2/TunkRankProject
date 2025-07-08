@@ -154,7 +154,13 @@ def main():
     matrix3 = local_vars['matrix']
 
     T3 = tunkrank(matrix3, p=0.4, max_iter=1000, tol=1e-8)
-    print_scores(T3)
+    # print_scores(T3)
+    
+    # Top 5 scores
+    top5 = top_k_tunkrank(T3, k=5)
+    print("Top 5 scores (id, score):")
+    for score, id in top5:
+        print(f"\t{id}: {score:.8f}")
 
 
 main()

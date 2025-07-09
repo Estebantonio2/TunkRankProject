@@ -1,4 +1,4 @@
-## Implementación de TunkRank
+# Implementación de TunkRank
 Este repositorio contiene una implementación básica del algoritmo TunkRank, una variante de PageRank.
 
 ### Dataset
